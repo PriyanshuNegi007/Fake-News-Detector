@@ -1,0 +1,37 @@
+.result {
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f9fafb;
+  text-align: center;
+}
+
+.real {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.fake {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.textBox {
+  margin-top: 15px;
+  line-height: 2rem;
+}
+
+.legend {
+  margin-top: 10px;
+}
+
+.fakeBox {
+  background: rgba(255, 0, 0, 0.4);
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.realBox {
+  background: rgba(0, 200, 0, 0.4);
+  padding: 5px;
+}
