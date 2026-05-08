@@ -1,0 +1,77 @@
+/* 🔹 Section wrapper */
+#contributors {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+/* 🔹 BIG CARD (outer container) */
+.contributors-card {
+  background: white;
+  width: 100%;
+  max-width: 900px;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+
+/* Title */
+.contributors-card h1 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* 🔹 Inner cards container */
+.members {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/*Individual contributor card */
+.member-card {
+  background: #f9f9f9;
+  padding: 20px;
+  width: 200px;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* Image */
+.member-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Name */
+.member-card h3 {
+  margin: 5px 0;
+}
+
+/* Role */
+.member-card p {
+  font-size: 14px;
+  color: gray;
+}
+
+/* GitHub link */
+.member-card a {
+  display: inline-block;
+  margin-top: 8px;
+  text-decoration: none;
+  color: #0077ff;
+  font-weight: 500;
+}

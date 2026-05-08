@@ -1,0 +1,75 @@
+.container {
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  max-width: 800px;
+  width: 100%;
+  background: #ffffff;
+  padding: 35px 40px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Intro text */
+.text {
+  text-align: center;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* Section headings */
+.card h3 {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+/* Lists */
+.card ul {
+  padding-left: 20px;
+}
+
+.card li {
+  margin-bottom: 6px;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Highlight model names */
+.card strong {
+  color: #000;
+}
+
+/* Subtle hover (optional) */
+.card:hover {
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .card {
+    padding: 25px 20px;
+  }
+}
+
+.graph {
+  width: 100%;
+  max-width: 600px;
+  margin: 15px auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
