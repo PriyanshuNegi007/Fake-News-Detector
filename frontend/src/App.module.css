@@ -1,0 +1,12 @@
+.page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #eef2f3, #dfe9f3);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: flex-start; /* ✅ FIX */
+
+  gap: 20px;
+}
